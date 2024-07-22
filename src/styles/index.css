@@ -1,3 +1,40 @@
-/* 
-    General Styles
-*/
+body {
+    background-color: rgb(120, 167, 214);
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h4 {
+    color: black;
+}
+
+p {
+    color: grey;
+}
+
+.center-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.btn-trash:hover {
+    color: red;
+}
+
+.btn-pen:hover {
+    color: green;
+}
+
+.alert-custom {
+    color: #ffffff;
+    background-color: #28a745; /* Verde claro */
+    border-color: #28a745;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
